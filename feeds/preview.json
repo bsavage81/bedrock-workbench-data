@@ -1,0 +1,57 @@
+{
+  "dataFormatVersion": 1,
+  "channel": "preview",
+  "snapshots": [
+    {
+      "dataFormatVersion": 1,
+      "id": "run-40587710657-1-preview",
+      "channel": "preview",
+      "generatedAt": "2026-10-27T21:34:33.342Z",
+      "extension": {
+        "min": "0.26.8",
+        "max": "0.26.8"
+      },
+      "minecraft": {
+        "min": "1.26.60",
+        "max": "1.26.60"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "4d30ae63750467771b6eccda105f732c6cb77ff7",
+          "tag": "v1.26.60.30-preview",
+          "channel": "preview",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        },
+        {
+          "url": "https://github.com/MicrosoftDocs/minecraft-creator",
+          "revision": "efda551c01f4c36ceb9c5f20546ed6e1380a7ab4",
+          "license": "CC-BY-4.0",
+          "attribution": "Microsoft Learn contributors; descriptions extracted and adapted by Bedrock Workbench."
+        },
+        {
+          "url": "https://github.com/Mojang/minecraft-creator-tools",
+          "revision": "a8f2cd2fc7aa7e7e075dbf54a4597319aa8b71e1",
+          "license": "MIT (supporting reference only; no code included)",
+          "attribution": "Mojang; supporting reference, parser not distributed in data."
+        },
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+          "tag": "v1.26.50.4",
+          "channel": "stable",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        }
+      ],
+      "url": "https://github.com/bsavage81/bedrock-workbench-data/releases/download/data-run-40587710657-1-preview/snapshot.json",
+      "sha256": "426cdee4c7741caa8b0eeb06bc3aaea00bc0aba10ddc468b5c83654356267b39",
+      "bytes": 3088195,
+      "reviewFingerprint": "ba1359c9b0937bcdae9b30ffc266f263fbfb6f620dcf5ed1d8c1dc846eda1d68"
+    }
+  ],
+  "generatedAt": "2026-10-27T21:35:15.120Z"
+}
