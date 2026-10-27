@@ -2,10 +2,10 @@
 
 Public data repository: https://github.com/bsavage81/bedrock-workbench-data
 
-The extension and its generators remain private. Only generated declarative
+The extension and its generators are open source at https://github.com/bsavage81/bedrock-workbench. Only generated declarative
 JSON snapshots, versioned manifests and attribution belong in the public repo.
 Snapshots are published only after source and compatibility review. Scheduled
-publication is controlled separately in the private build repository.
+publication is controlled separately in the source build repository.
 
 When enabled, `feeds/stable.json` and `feeds/preview.json` retain an index of
 compatible historical releases. Each entry points to the immutable release
@@ -17,10 +17,10 @@ Our authored data uses MIT. Microsoft Learn excerpts retain CC-BY-4.0.
 Mojang sample facts retain upstream attribution and LICENSE.md/Minecraft EULA
 notices. Creator Tools is a supporting reference; no parser code is included.
 Snapshots contain full source notices. No game models, images, vanilla
-translations, project content, extension code or private repository history is
+translations, project content, extension code or repository history is
 published.
 
-Maintenance and review instructions are in the private source repository's
+Maintenance and review instructions are in the source repository's
 `AUTHORING_DATA.md`. Publication requires a reviewed candidate fingerprint,
 passing tests and source/fixture coverage audits, an approved Actions environment,
 and immutable releases enabled on this repository. Preview absence is reported;
