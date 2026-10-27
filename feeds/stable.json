@@ -1,0 +1,48 @@
+{
+  "dataFormatVersion": 1,
+  "channel": "stable",
+  "snapshots": [
+    {
+      "dataFormatVersion": 1,
+      "id": "run-40587848516-1-stable",
+      "channel": "stable",
+      "generatedAt": "2026-10-27T21:36:39.464Z",
+      "extension": {
+        "min": "0.26.8",
+        "max": "0.26.8"
+      },
+      "minecraft": {
+        "min": "1.26.50",
+        "max": "1.26.50"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "46ba6ea985fb5a92d79a9419198f10dda14c199d",
+          "tag": "v1.26.50.4",
+          "channel": "stable",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        },
+        {
+          "url": "https://github.com/MicrosoftDocs/minecraft-creator",
+          "revision": "efda551c01f4c36ceb9c5f20546ed6e1380a7ab4",
+          "license": "CC-BY-4.0",
+          "attribution": "Microsoft Learn contributors; descriptions extracted and adapted by Bedrock Workbench."
+        },
+        {
+          "url": "https://github.com/Mojang/minecraft-creator-tools",
+          "revision": "a8f2cd2fc7aa7e7e075dbf54a4597319aa8b71e1",
+          "license": "MIT (supporting reference only; no code included)",
+          "attribution": "Mojang; supporting reference, parser not distributed in data."
+        }
+      ],
+      "url": "https://github.com/bsavage81/bedrock-workbench-data/releases/download/data-run-40587848516-1-stable/snapshot.json",
+      "sha256": "e3649fe4ba6fb470ce3f1c8e2dda5a91866c0d4cb31041504ea03bb8374a5c12",
+      "bytes": 3082839,
+      "reviewFingerprint": "3b09d0c0f881cbb9ff71aa6fd1b84e000ba3fe81fe8b4ff95012405a10d7854a"
+    }
+  ],
+  "generatedAt": "2026-10-27T21:37:22.636Z"
+}
