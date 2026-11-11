@@ -51,7 +51,57 @@
       "sha256": "426cdee4c7741caa8b0eeb06bc3aaea00bc0aba10ddc468b5c83654356267b39",
       "bytes": 3088195,
       "reviewFingerprint": "ba1359c9b0937bcdae9b30ffc266f263fbfb6f620dcf5ed1d8c1dc846eda1d68"
+    },
+    {
+      "dataFormatVersion": 1,
+      "id": "run-43049726220-1-preview",
+      "channel": "preview",
+      "generatedAt": "2026-11-11T15:38:03.577Z",
+      "extension": {
+        "min": "0.26.13",
+        "max": "0.26.13"
+      },
+      "minecraft": {
+        "min": "1.26.70",
+        "max": "1.26.70"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "430142679bb7daf3160671f06ab32ea433be1e1d",
+          "tag": "v1.26.70.23-preview",
+          "channel": "preview",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        },
+        {
+          "url": "https://github.com/MicrosoftDocs/minecraft-creator",
+          "revision": "a9fd1c066560313eefb96715e8abf201890abd81",
+          "license": "CC-BY-4.0",
+          "attribution": "Microsoft Learn contributors; descriptions extracted and adapted by Bedrock Workbench."
+        },
+        {
+          "url": "https://github.com/Mojang/minecraft-creator-tools",
+          "revision": "114ebc99f31ba2fd37e7daf71643ea1c9f940fd6",
+          "license": "MIT (supporting reference only; no code included)",
+          "attribution": "Mojang; supporting reference, parser not distributed in data."
+        },
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "15701fa9c13923f12662984c32c124327e40e3d3",
+          "tag": "v1.26.60.5",
+          "channel": "stable",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        }
+      ],
+      "url": "https://github.com/bsavage81/bedrock-workbench-data/releases/download/data-run-43049726220-1-preview/snapshot.json",
+      "sha256": "ba05fb7c42340f9241e5432c196346e464bc81266ad081ee283320efcf145c9b",
+      "bytes": 2998313,
+      "reviewFingerprint": "42fa2dc592955ae9719d64bb1c46f7d64c46c190a5e7a0ebb3bec3111b2ebcb9"
     }
   ],
-  "generatedAt": "2026-10-27T21:35:15.120Z"
+  "generatedAt": "2026-11-11T15:38:46.772Z"
 }
