@@ -7,7 +7,7 @@ JSON snapshots, versioned manifests and attribution belong in the public repo.
 Snapshots are published only after the owner reviews and commits their exact
 content and compatibility fingerprints in the source repository. The data
 repository workflow uses its own GitHub token; no cross-repository secret is
-needed. Scheduled publication is disabled until specifically requested.
+needed. Scheduled publication runs every six hours for reviewed fingerprints.
 
 When enabled, `feeds/stable.json` and `feeds/preview.json` retain an index of
 compatible historical releases. Each entry points to the immutable release
@@ -28,3 +28,13 @@ passing tests and source/fixture coverage audits, and immutable releases enabled
 on this repository. Preview absence is reported;
 Stable content is never relabeled as Preview.
 
+Scheduled data checks are enabled every six hours (at minute 23 UTC). Both Stable
+and Preview are built and tested. Verified official-source changes publish under the automatic policy;
+inherited or authored changes remain held for review. Manual dispatch supports
+`both` to exercise the same two-channel path.
+
+## Publication policy — November 11, 2026
+
+Official Mojang sample metadata and Microsoft Learn extractions can publish without a new owner fingerprint after schema, coverage, vanilla fixtures and candidate-loaded regressions pass. `data-public/reviewed.json` records SHA-256 baselines for our authored schemas, links and Molang guidance; changes to these require review. This is not an official-schema-only payload: our schemas remain independently authored. Inherited Stable definitions in Preview require explicit fingerprint review, and incompatible inherited definitions always block publication. Absent Stable components unused by Preview samples are audited without failing the build.
+
+Each channel uses its own reusable verify/publish workflow, so a blocked Preview does not block Stable. Full candidate reports and regression logs upload even on failure. Ordinary review holds succeed without a publication marker; actual validation failures remain failures. The publisher independently rechecks the source-commit policy and artifact fingerprint before publishing. Keep immutable releases, anonymous download verification, checksum checks and historic feed entries enabled. Update authored baselines only after reviewing their changes; never approve a conflicting fixture by adding its fingerprint.
