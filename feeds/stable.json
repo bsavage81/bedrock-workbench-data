@@ -83,7 +83,48 @@
       "sha256": "db4d25153a17cfc11c0c80aaeb6cc832642376028820652955dbf0464cad612e",
       "bytes": 3082635,
       "reviewFingerprint": "8766b37b2e29a5f2fcbf5aaa63d1fd1a9dbbba083f6ac31c0c57cc8630bcfab8"
+    },
+    {
+      "dataFormatVersion": 1,
+      "id": "run-44176190851-1-stable",
+      "channel": "stable",
+      "generatedAt": "2026-11-17T21:07:05.806Z",
+      "extension": {
+        "min": "0.26.13",
+        "max": "0.26.13"
+      },
+      "minecraft": {
+        "min": "1.26.60",
+        "max": "1.26.60"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Mojang/bedrock-samples",
+          "revision": "15701fa9c13923f12662984c32c124327e40e3d3",
+          "tag": "v1.26.60.5",
+          "channel": "stable",
+          "available": true,
+          "license": "Minecraft EULA (upstream LICENSE.md)",
+          "attribution": "(c) Mojang AB. All rights reserved."
+        },
+        {
+          "url": "https://github.com/MicrosoftDocs/minecraft-creator",
+          "revision": "80b7b1713df821debb4a8022e32e6b0ad840a273",
+          "license": "CC-BY-4.0",
+          "attribution": "Microsoft Learn contributors; descriptions extracted and adapted by Bedrock Workbench."
+        },
+        {
+          "url": "https://github.com/Mojang/minecraft-creator-tools",
+          "revision": "114ebc99f31ba2fd37e7daf71643ea1c9f940fd6",
+          "license": "MIT (supporting reference only; no code included)",
+          "attribution": "Mojang; supporting reference, parser not distributed in data."
+        }
+      ],
+      "url": "https://github.com/bsavage81/bedrock-workbench-data/releases/download/data-run-44176190851-1-stable/snapshot.json",
+      "sha256": "733aedc80040d66a7d9e4beaead662d8d5ee6be1a7e4b0c97b8c642f7fdb7ff9",
+      "bytes": 3082635,
+      "reviewFingerprint": "0c787dd8ccaf899a95a78fda41e12ed63ecd4cbdb28de9220e70a54e2145045d"
     }
   ],
-  "generatedAt": "2026-11-11T15:04:06.700Z"
+  "generatedAt": "2026-11-17T21:07:47.684Z"
 }
